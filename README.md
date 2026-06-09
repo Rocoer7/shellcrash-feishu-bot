@@ -24,6 +24,17 @@
 
 ---
 
+
+## 界面预览
+
+飞书内发送 `/menu` 后，会看到类似下面的交互卡片菜单：
+
+<p align="center">
+  <img src="docs/assets/feishu-menu-preview.png" alt="飞书 ShellCrash 控制面板截图" width="420">
+</p>
+
+---
+
 ## 工作原理
 
 ```mermaid
