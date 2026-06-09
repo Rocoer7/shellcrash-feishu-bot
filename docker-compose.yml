@@ -1,0 +1,10 @@
+services:
+  shellcrash-feishu-bot:
+    build: .
+    container_name: shellcrash-feishu-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # 如果你使用 SSH 密钥登录路由器，把私钥放到 ./keys/ 目录，再在 .env 设置 SSH_KEY_PATH=/app/keys/xxx
+      - ./keys:/app/keys:ro
